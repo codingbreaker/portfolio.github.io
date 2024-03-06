@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+
+    <link rel="stylesheet" href="{{url_for('static',filename='style2.css')}}">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="/" class="active">Home</a>
+            <a href="about">About</a>
+            <a href="education">Education</a>
+            <a href="skill">Skills</a>
+            <a href="contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+ 
+ <!-- skills section design -->
+ <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <div class="skills-row">
+        <div class="skills-column">
+            <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <!-- <h3>HTML <span></span></h3> -->
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+
+                    <div class="progress">
+                        <h3>HTML<span></span></h3>
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+
+                    <div class="progress">
+                        <h3>CSS---Tailwind CSS<span></span></h3>
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+
+                    <div class="progress">
+                        <h3>JavaScript <span></span></h3>
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+
+                    <div class="progress">
+                        <h3>Python---Flask,Jinja2 <span></span></h3>
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+                    <div class="progress">
+                        <h3>MySql<span></span></h3>
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+                    <div class="progress">
+                        <h3>java <span></span></h3>
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+                </div>
+
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+        </div>
+
+        <div class="skills-column">
+            <h3 class="title">Professional Skills<span class="animate scroll" style="--i:5;"></span></h3>
+            <div class="progress">
+             
+
+            <div class="skills-box">
+                <div class="skills-content">
+                    
+
+                    <div class="progress">
+                        <h3> leadership skill<span></span></h3>
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+                    
+                    
+                    <div class="progress">
+                        <h3>Communication skill <span></span></h3>
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+                    <div class="progress">
+                        <h3>Problem-solving<span></span></h3>
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+
+                    <div class="progress">
+                        <h3>Teamwork <span></span></h3>
+                        <!-- <div class="bar"><span></span></div> -->
+                    </div>
+                </div>
+
+                <span class="animate scroll" style="--i:6;"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- footer design -->
+ <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 | Designed and Maintained by Pawan Gupta | All Rights Reserved</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+<script src="{{url_for('static',filename='script.js')}}"></script>
+</body>
+
+</html>
